@@ -1,14 +1,18 @@
 <script>
-	import Header from '../Components/Header.svelte'
-	import Content from '../Components/Content.svelte'
+	import Intro from '../components/Home/Intro.svelte'
 </script>
 
-
+<!-- MON STYLE -->
 
 <style type="text/scss" global>
-@import './styles/theme.scss';
+
+// MES VARIABLES
+@import '../styles/theme.scss';
 
 </style>
 
-<Header />
-<Content />
+<svelte:head>
+	<title>My New Project</title>
+</svelte:head>
+
+<Intro />
