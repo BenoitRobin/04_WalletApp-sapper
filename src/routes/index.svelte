@@ -12,7 +12,7 @@
 </style>
 
 <svelte:head>
-	<title>My New Project</title>
+	<title>Benoit Robin</title>
 </svelte:head>
 
 <Intro />
